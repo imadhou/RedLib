@@ -1,0 +1,124 @@
+body{
+	background-color: #ccc;
+	background-image: url(back1.jpg); 
+	background-position: top left ;
+	background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-size: cover; 
+    
+}
+
+h1{
+	color: white; 
+	 
+}
+
+#frm{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding:  40px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.mail,.MDP{
+	position: relative;
+}
+#in{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white; 
+	margin-bottom: 30px;
+	border: none; 
+	border-bottom: 1px solid #fff;
+	outline: none; 
+	background: transparent;
+	letter-spacing: 1px;
+}
+label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+#in:focus ~ label, #in:valid ~ label{
+	top: -18px;
+	left: 0;
+	color: #03A9F4;
+	font-size: 12px;
+	}
+#btm{
+
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03A9F4;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 5px;
+	margin-left: 35%;
+	transition: all 0.5s ease;
+	border-top: 10px;
+}
+#btm:active{
+	padding: 0; 
+}
+#btm:hover{
+	color: white;
+	background-color: #FF8C00;
+}
+
+#img_centre{
+	border-radius: 20%;
+    padding-left: 110px;
+    padding-bottom: 30px;
+ 
+    position: absolute;
+    top: -50px;
+    left: calc(60% -60px);
+  
+}
+#logo{
+
+	width: 200px;
+	height: 150px;
+}
+
+.inputlog{
+	border: 1px solid gray;
+	border-radius: 2px;
+	padding: 5px;
+	transition: all 0.5s ;
+	border-bottom: 1px solid white;
+}	
+.inputlog:focus{
+	border-color: blue;
+	
+}
+
+.username{
+	background-image: url('images.png');
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+    background-size: 16px;
+	padding-left: 23px;
+}
+.password{
+	background-image: url('pass.png');
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+    background-size: 16px;
+	padding-left: 23px;
+}
+s

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="redlib@localhost" uuid="b998f93e-c298-489c-a520-b2134cf27a05">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dbadmin</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="redlib@localhost [2]" uuid="03226572-03f1-4ba4-bfff-a8c999ff6a93">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dbadmin</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
